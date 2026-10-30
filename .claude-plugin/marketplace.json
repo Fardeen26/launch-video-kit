@@ -1,0 +1,19 @@
+{
+  "name": "launch-video-kit",
+  "owner": { "name": "Fardeen", "url": "https://github.com/Fardeen26" },
+  "description": "The launch-video workflow behind the Rotware launch film, packaged as a Claude Code skill.",
+  "plugins": [
+    {
+      "name": "launch-video-kit",
+      "source": "./",
+      "description": "Make a fast, meme-native product launch video with real product recordings, a mascot, licensed music and beat-synced sound effects, rendered in Remotion.",
+      "version": "1.0.0",
+      "author": { "name": "Fardeen", "url": "https://github.com/Fardeen26" },
+      "homepage": "https://github.com/Fardeen26/launch-video-kit",
+      "repository": "https://github.com/Fardeen26/launch-video-kit",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["launch video", "remotion", "product hunt", "memes", "video"]
+    }
+  ]
+}

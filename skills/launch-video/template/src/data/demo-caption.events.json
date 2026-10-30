@@ -1,0 +1,6 @@
+[
+ { "t": 0.4, "vt": 0.4, "type": "click", "x": 1166, "y": 266, "label": "Top banner" },
+ { "t": 0.95, "vt": 0.95, "type": "click", "x": 1100, "y": 160, "label": "caption box" },
+ { "t": 1.0, "vt": 1.0, "type": "type", "text": "me after the live demo:" },
+ { "t": 3.6, "vt": 3.6, "type": "click", "x": 690, "y": 640, "label": "deselect" }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "launch-video-kit",
+  "description": "Make a fast, meme-native product launch video with real product recordings, a mascot, licensed music and beat-synced sound effects, rendered in Remotion. The full workflow behind the Rotware launch film.",
+  "version": "1.0.0",
+  "author": { "name": "Fardeen", "url": "https://github.com/Fardeen26" },
+  "homepage": "https://github.com/Fardeen26/launch-video-kit",
+  "repository": "https://github.com/Fardeen26/launch-video-kit",
+  "license": "MIT",
+  "keywords": ["launch video", "remotion", "product hunt", "memes", "video editing", "screen recording", "motion graphics"]
+}

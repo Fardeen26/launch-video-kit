@@ -1,0 +1,26 @@
+{
+  "name": "launch-film",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo-assets": "bash scripts/make-demo-assets.sh",
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc -p .",
+    "preview": "remotion render src/index.ts Film out/preview.mp4 --scale=0.5",
+    "render": "remotion render src/index.ts Film out/film-4k.mp4 --scale=2 --image-format=png --crf=14 --x264-preset=slow --audio-bitrate=320k && ffmpeg -v error -y -i out/film-4k.mp4 -vf scale=1920:1080:flags=lanczos -c:v libx264 -preset slow -crf 14 -profile:v high -pix_fmt yuv420p -movflags +faststart -c:a copy out/film-1080p.mp4",
+    "render:vertical": "remotion render src/index.ts FilmVertical out/film-vertical.mp4 --image-format=png --crf=14 --x264-preset=slow --audio-bitrate=320k"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

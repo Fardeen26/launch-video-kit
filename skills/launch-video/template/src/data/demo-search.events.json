@@ -1,0 +1,8 @@
+[
+ { "t": 0.4, "vt": 0.4, "type": "click", "x": 70, "y": 250, "label": "Search tab" },
+ { "t": 1.0, "vt": 1.0, "type": "click", "x": 260, "y": 240, "label": "search input" },
+ { "t": 1.2, "vt": 1.2, "type": "type", "text": "cybertruck window smash" },
+ { "t": 2.6, "vt": 2.6, "type": "mark", "name": "search-submitted" },
+ { "t": 3.4, "vt": 3.4, "type": "mark", "name": "results" },
+ { "t": 3.9, "vt": 3.9, "type": "click", "x": 250, "y": 470, "label": "first result" }
+]

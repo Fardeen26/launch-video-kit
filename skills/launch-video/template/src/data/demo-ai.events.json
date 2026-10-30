@@ -1,0 +1,8 @@
+[
+ { "t": 0.4, "vt": 0.4, "type": "click", "x": 770, "y": 530, "label": "AI" },
+ { "t": 1.0, "vt": 1.0, "type": "click", "x": 1100, "y": 200, "label": "prompt box" },
+ { "t": 1.2, "vt": 1.2, "type": "type", "text": "turn the truck into a giant error popup" },
+ { "t": 4.4, "vt": 4.4, "type": "click", "x": 1100, "y": 505, "label": "Generate" },
+ { "t": 4.45, "vt": 4.45, "type": "mark", "name": "submitted" },
+ { "t": 6.2, "vt": 6.2, "type": "mark", "name": "done" }
+]
